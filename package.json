@@ -1,0 +1,20 @@
+{
+    "name": "wine_dot_com",
+    "description": "A node wrapper for the wine.com API.",
+    "version": "0.0.1",
+    "author": "clintcparker <clintcparker@gmail.com>",
+    "dependencies": {
+        "underscore": "1.4.x"
+    },
+    "devDependencies":{
+        "mocha":"*"
+    },
+    "repository": "git://github.com/clintcparker/wine_dot_com",
+    "main": "index",
+    "engines": {
+        "node": ">= 0.4.0"
+    },
+    "scripts": { 
+    "test": "make test"
+  }
+}
