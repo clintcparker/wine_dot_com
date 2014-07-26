@@ -1,0 +1,16 @@
+language: node_js
+node_js:
+- '0.11'
+- '0.10'
+- '0.8'
+- '0.6'
+branches:
+  only:
+  - master
+  - dev
+  - testing
+deploy:
+  api_key:
+    secure: AhZxTCOyCoSP3zq1zGSl11ae3OunUPEdVGGLcMCE45ArOeCXQCk5NBc1Hn2/LjaLunbjKhXuc9YViYiBli0hLcUp3oJQ/G7BAgkdrUkrK4wZz+xyY/6VpzlGorCTrV1TU/lxmigyEl5Ib0ld7Y7M6BqeBLFrBdaIpCzWgIArPxY=
+  email: clintcparker@gmail.com
+  provider: npm
