@@ -1,1 +1,0 @@
-exports.WineDotCom = require('./lib/wine_dot_com.js');
